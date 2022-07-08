@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>연다은봄</title>
+  </head>
+  
+    <h1>연다은봄</h1>
+
+    <input
+      id="mode"
+      type="button"
+      value="다크모드"
+      onclick = "
+        if(document.querySelector('#mode').value === '다크모드') {
+          document.querySelector('body').style.backgroundColor = 'black';
+          document.querySelector('body').style.color = 'white';
+          document.querySelector('#mode').value = '라이트모드'
+        } else {
+          document.querySelector('body').style.backgroundColor = 'white';
+          document.querySelector('body').style.color = 'black';
+          document.querySelector('#mode').value = '다크모드'
+        }
+      "
+      
+    />
+    <h2>관심 직무</h2>
+    <strong>프론트엔드</strong>를 확실히 해내어 용이한 UX를 제공할 수 있는 개발자가 되고 싶습니다.<br/>다양한 사람들을 접해 그들에게 필요한 서비스를 제공하는 것에도 관심이 있어 <strong>기획업무</strong>에도 흥미를 느끼고 있습니다.
+
+    <h2>관심 기술</h2>
+    <ol>
+        <li>프론트엔드만 생각한다면 React.js에 집중하고 싶습니다.</li>
+        <li>풀스택도 욕심나서 Node.js를 열심히 할 생각입니다.</li>
+        <li>
+          웹 서비스 구현에 익숙해질 즈음에는 iOS 어플리케이션 제작에도 관심사를
+          확장시키고 싶습니다.
+        </li>
+    </ol>
+
+    <h2>기대되는 점</h2>
+    새로운 사람들과 새로운 기술로 새로운 서비스를 제공할 생각에 설렙니다.
+
+    <h2>연라푸</h2>
+    <img src="laphoo.jpg" width="400px"/><br/>
+    <p>세상에서 제일 귀여운 저희 강아지를 보시고 속세에서 벗어나세요.</p>
+
+    <h2>하고픈 말</h2>
+    잘 부탁드립니다.
+  </body>
+</html>
